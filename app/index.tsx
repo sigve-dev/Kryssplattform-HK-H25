@@ -32,7 +32,7 @@ export default function HomeScreen() {
         options={{
           headerRight: () => (
             <Pressable onPress={() => setIsModalVisible(true)}>
-              <Text>Knapp?</Text>
+              <Text>Knapp? Ja, knapp</Text>
             </Pressable>
           ),
         }}
