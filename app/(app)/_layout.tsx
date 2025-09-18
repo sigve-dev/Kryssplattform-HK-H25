@@ -1,7 +1,5 @@
-import { Redirect, Stack } from "expo-router";
-import "react-native-reanimated";
-
 import { useAuthSession } from "@/providers/authctx";
+import { Redirect, Stack } from "expo-router";
 import { Text, View } from "react-native";
 
 export default function RootLayout() {
